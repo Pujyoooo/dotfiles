@@ -21,25 +21,30 @@ filetype plugin indent on " Required!
 NeoBundleCheck
 
 syntax on
+"折り返し無効
 set nowrap
-
+"検索オプション
 set hlsearch
 set ignorecase
 set smartcase
-
+"autoindent有効
 set autoindent
-
+"カーソル行の表示
 set ruler
 set number
+"タブ文字をCTRL-lで表示、行末に$で表示
 set list
+"コマンド補完が拡張モード
 set wildmenu
+"コマンドを画面の最下行に表示
 set showcmd
 
-set shiftwidth=4
-set softtabstop=4
-
+"タブのインデント数
+set shiftwidth=2
+set softtabstop=2
 set expandtab
-set tabstop=4
+set tabstop=2
+"shiftwidthの数だけインデント
 set smarttab
 
 set clipboard=unnamed
