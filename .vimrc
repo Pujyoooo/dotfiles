@@ -119,7 +119,7 @@ let g:lightline = {
     \}
 
 "------------------------------
-"vim-indent-guides conigration
+"vim-indent-guides coniguration
 "-----------------------------
 colorscheme default
 let g:indent_guides_enable_on_vim_startup=1
@@ -136,3 +136,10 @@ let g:indent_guides_guide_size = 1
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
 nnoremap <C-n> gt
 nnoremap <C-p> gT
+
+"-----------------------------
+"Ctags configuration
+"-----------------------------
+nnoremap <C-]> g<C-]>
+nnoremap <C-h> :vsp<CR> :exe("tjump " .expand('<cword>'))<CR>
+nnoremap <C-h> :split<CR> :exe("tjump " .expand('<cword>'))<CR>
