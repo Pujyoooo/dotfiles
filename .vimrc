@@ -143,3 +143,12 @@ nnoremap <C-p> gT
 nnoremap <C-]> g<C-]>
 nnoremap <C-h> :vsp<CR> :exe("tjump " .expand('<cword>'))<CR>
 nnoremap <C-h> :split<CR> :exe("tjump " .expand('<cword>'))<CR>
+
+"-----------------------------
+"vimgrep configuration
+"-----------------------------
+nnoremap [q :cprevious<CR>
+nnoremap ]q :cnect<CR>
+nnoremap [Q :<C-u>cfirst<CR>
+nnoremap ]Q :<C-u>clast<CR>
+"test
