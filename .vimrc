@@ -28,7 +28,7 @@ NeoBundle 'jelera/vim-javascript-syntax'
 " コード補完
 NeoBundle 'Shougo/neocomplete.vim'
 NeoBundle 'marcus/rsense'
-NeoBundle 'supermomonga/neocomplete-rsense.vim'
+"NeoBundle 'supermomonga/neocomplete-rsense.vim'"
 
 " 静的解析
 NeoBundle 'scrooloose/syntastic'
