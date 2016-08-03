@@ -104,7 +104,10 @@ set tabstop=2
 "shiftwidthの数だけインデント
 set smarttab
 
-set clipboard=unnamed
+" スワップファイルを作成しない
+:set noswapfile
+
+set clipboard=unnamed,autoselect
 "backspace 有効
 set backspace=start,eol,indent
 "------------------------------
