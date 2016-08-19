@@ -154,4 +154,7 @@ nnoremap [q :cprevious<CR>
 nnoremap ]q :cnect<CR>
 nnoremap [Q :<C-u>cfirst<CR>
 nnoremap ]Q :<C-u>clast<CR>
-"test
+"-----------------------------
+"remove trailing whitespace
+"-----------------------------
+autocmd BufWritePre * :%s/\s\+$//ge
