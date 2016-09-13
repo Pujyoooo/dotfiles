@@ -104,6 +104,9 @@ set tabstop=2
 "shiftwidthの数だけインデント
 set smarttab
 
+"インデントの見た目"
+set breakindent
+
 " スワップファイルを作成しない
 :set noswapfile
 
