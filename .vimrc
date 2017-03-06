@@ -47,7 +47,7 @@ set nowrap
 set showcmd
 
 " オートインデント
-set noautoindent
+set autoindent
 
 " カーソル行の表示
 set ruler
