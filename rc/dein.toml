@@ -57,3 +57,5 @@ repo = 'szw/vim-tags'
 [[plugins]]
 repo = 'tpope/vim-endwise'
 
+[[plugins]]
+repo = 'aklt/plantuml-syntax'

@@ -1,3 +1,11 @@
 # View Settings
 set main-view = id date author commit-title:graph=yes,refs=yes
+
 # Bind Settings
+bind generic G none
+bind generic g move-first-line
+bind generic G move-last-line
+bind main R !git rebase -i %(commit)
+bind diff R !git rebase -i %(commit)
+bind generic <Ctrl-f> move-page-down
+bind generic <Ctrl-b> move-page-up
