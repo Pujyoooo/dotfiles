@@ -28,9 +28,6 @@ repo = 'scrooloose/nerdtree'
 repo = 'AndrewRadev/switch.vim'
 
 [[plugins]]
-repo = 'tpope/vim-endwise'
-
-[[plugins]]
 repo = 'itchyny/lightline.vim'
 
 [[plugins]]
@@ -55,10 +52,11 @@ repo = 'yuku-t/vim-ref-ri'
 repo = 'szw/vim-tags'
 
 [[plugins]]
-repo = 'tpope/vim-endwise'
-
-[[plugins]]
 repo = 'aklt/plantuml-syntax'
 
 [[plugins]]
 repo = 'leafgarland/typescript-vim'
+
+[[plugins]]
+repo = 'neoclide/coc.nvim'
+build = './install.sh nightly'
