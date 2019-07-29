@@ -40,9 +40,6 @@ repo = 'scrooloose/syntastic'
 repo = 'jelera/vim-javascript-syntax'
 
 [[plugins]]
-repo = 'scrooloose/syntastic'
-
-[[plugins]]
 repo = 'thinca/vim-ref'
 
 [[plugins]]
@@ -60,3 +57,9 @@ repo = 'leafgarland/typescript-vim'
 [[plugins]]
 repo = 'neoclide/coc.nvim'
 build = './install.sh nightly'
+
+[[plugins]]
+repo = 'posva/vim-vue'
+
+[[plugins]]
+repo = 'w0rp/ale'
