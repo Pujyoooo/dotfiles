@@ -275,12 +275,22 @@ nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
 
 " For ALE Settings
 let g:ale_statusline_format = ['E%d', 'W%d', 'OK']
+let g:ale_linters = {
+      \ 'html': [],
+      \ 'css': ['stylelint'],
+      \ 'javascript': ['prettier-eslint'],
+      \ 'vue': ['eslint']
+      \ }
+let g:ale_linter_aliases = {'vue': 'css'}
 
 nmap <silent> <C-w>j <Plug>(ale_next_wrap)
 nmap <silent> <C-w>k <Plug>(ale_previous_wrap)
 
-let g:ale_fixers = {}
-let g:ale_fixers['javascript'] = ['prettier-eslint']
+let g:ale_fixers = {
+  \ 'javascript': ['prettier'],
+  \ 'vue': ['prettier'],
+  \ 'css': ['prettier']
+\ }
 
 " ファイル保存時に実行
 let g:ale_fix_on_save = 1
