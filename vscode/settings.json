@@ -1,0 +1,60 @@
+{
+    // 常に新しいtabで開く
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.sideBar.location": "left",
+    // タイトルバーにファイルのフルパスを表示する
+    "window.showFullPath": true,
+
+    //fontsizeを小さく
+    "editor.fontSize":11,
+    "terminal.integrated.fontSize": 11,
+
+    //wrap
+    "editor.wordWrap": "on",
+    "files.trimTrailingWhitespace": true,
+
+    //ミニマップをfalse
+    "editor.minimap.enabled": false,
+
+    // 1 つのタブに相当するスペースの数。
+    "editor.tabSize": 2,
+    // 現在行をガターを含めてハイライトするので視認性が上がる
+    "editor.renderLineHighlight": "all",
+    // 入力補完の表示を何ms遅らせるか
+    "editor.quickSuggestionsDelay": 10,
+    // 括弧開きを入力したとき括弧閉じを自動的に入れる
+    "editor.autoClosingBrackets": "languageDefined",
+    // カーソルがにゅるっと点滅する
+    "editor.cursorBlinking": "smooth",
+    // エディタのendなどを自動入力
+    "editor.autoIndent": "advanced",
+    "editor.renderIndentGuides": true,
+    // エディターのタブの大きさを制御します。
+    "workbench.editor.tabSizing": "shrink",
+
+    //bookmarkをsidebarに表示する
+    "bookmarks.treeview.visible": true,
+
+    //vueでも有効にします
+    "emmet.includeLanguages": {"vue-html": "html"},
+
+    // システムのclipboardにコピー
+    "vim.useSystemClipboard":true,
+    // 検索に:を入れる
+    "vim.cmdLineInitialColon": true,
+    "vim.hlsearch": true,
+
+    // 言わずもがなeasymotion
+    "vim.easymotion": true,
+
+    // カーソル上にあるワードを"*"で検索
+    "vim.visualstar": true,
+
+    // 諸々のctrlキーを使った操作が有効になる
+    "vim.useCtrlKeys": true,
+
+    // 実行するターミナル アプリケーションをカスタマイズします。
+    "terminal.external.osxExec": "iTerm.app",
+}
