@@ -142,3 +142,5 @@ let g:syntastic_ruby_checkers = ['rubocop']
 " -----------------------------
 
 let g:plantuml_executable_script = "~/dotfiles/plantuml"
+
+command! Pwd echo expand(“%:p”)
