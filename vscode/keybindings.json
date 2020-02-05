@@ -1,6 +1,7 @@
 // 既定値を上書きするには、このファイル内にキー バインドを挿入します
 [
     {
+        "_comment": "次のエディタ" ,
         "key": "ctrl + p",
         "command": "workbench.action.previousEditor"
     },
@@ -25,5 +26,97 @@
         "key": "ctrl+n",
         "command": "workbench.action.nextEditor",
         "when": "editorTextFocus"
-    }
+    },
+    {
+        "key": "enter",
+        "command": "list.select",
+        "when": "explorerViewletFocus && listFocus &&explorerViewletVisible && !inputFocus"
+    },
+    {
+        "key": "o",
+        "command": "list.select",
+        "when": "explorerViewletFocus && listFocus &&explorerViewletVisible && !inputFocus"
+    },
+    {
+        "key": "a",
+        "command": "explorer.newFile",
+        "when": "explorerViewletFocus && listFocus &&explorerViewletVisible && !inputFocus"
+    },
+    {
+        "key": "shift+a",
+        "command": "explorer.newFolder",
+        "when": "explorerViewletFocus && listFocus &&explorerViewletVisible && !inputFocus"
+    },
+    {
+        "key": "d",
+        "command": "deleteFile",
+        "when": "explorerViewletFocus && listFocus &&explorerViewletVisible && !inputFocus"
+    },
+    {
+        "key": "x",
+        "command": "list.collapse",
+        "when": "listFocus && !inputFocus"
+    },
+    {
+        "key": "ctrl+cmd+enter",
+        "command": "renameFile",
+        "when": "explorerViewletFocus && listFocus &&explorerViewletVisible && !inputFocus"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "workbench.action.quickOpenView",
+    },
+    {
+        "key": "escape",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "explorerViewletFocus && listFocus &&explorerViewletVisible && !inputFocus"
+    },
+    {
+        "key": "escape",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    },
+    {
+        "_comment": "ターミナルのタブを開く" ,
+        "key": "cmd+shift+t",
+        "command": "workbench.action.terminal.newInActiveWorkspace"
+    },
+    {
+        "_comment": "ターミナルのタブを閉じる" ,
+        "key": "cmd+shift+w",
+        "command": "workbench.action.terminal.kill"
+    },
+    {
+        "_comment": "ターミナルの切り替え" ,
+        "key": "cmd+shift+j",
+        "command": "workbench.action.terminal.focusNext"
+    },
+    {
+        "_comment": "ターミナルの切り替え" ,
+        "key": "cmd+shift+k",
+        "command": "workbench.action.terminal.focusPrevious"
+    },
+    {
+        "_comment": "ターミナル/エディタ間の切り替え" ,
+        "key": "cmd+shift+enter",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "_comment": "ターミナル/エディタ間の切り替え" ,
+        "key": "cmd+shift+enter",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when":"terminalFocus"
+    },
+    {
+        "_comment": "次ターミナルの切り替え" ,
+        "key": "cmd+]",
+        "command": "workbench.action.terminal.focusNextPane",
+        "when":"terminalFocus"
+    },
+    {
+        "_comment": "前ターミナルの切り替え" ,
+        "key": "cmd+[",
+        "command": "workbench.action.terminal.focusPreviousPane",
+        "when":"terminalFocus"
+    },
 ]
