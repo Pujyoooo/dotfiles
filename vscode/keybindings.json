@@ -77,6 +77,18 @@
         "when": "terminalFocus"
     },
     {
+        "_comment": "sidebar/エディタ間の切り替え" ,
+        "key": "ctrl+e",
+        "command": "workbench.action.focusSideBar",
+        "when": "editorTextFocus"
+    },
+    {
+        "_comment": "sidebar/エディタ間の切り替え" ,
+        "key": "ctrl+e",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "explorerViewletFocus && listFocus &&explorerViewletVisible && !inputFocus"
+    },
+    {
         "_comment": "ターミナルのタブを開く" ,
         "key": "cmd+shift+t",
         "command": "workbench.action.terminal.newInActiveWorkspace"
