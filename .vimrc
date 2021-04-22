@@ -111,7 +111,7 @@ let g:indent_guides_guide_size = 1
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
 nnoremap <C-n> gt
 nnoremap <C-p> gT
-
+let NERDTreeShowHidden=1
 " -----------------------------
 " Ctags configuration
 " -----------------------------
