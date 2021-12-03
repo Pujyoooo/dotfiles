@@ -131,4 +131,28 @@
         "command": "workbench.action.terminal.focusPreviousPane",
         "when":"terminalFocus"
     },
+    {
+        "_comment": "エディタを下に分割" ,
+        "key": "ctrl+shift+cmd+j",
+        "command": "workbench.action.splitEditorDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "_comment": "エディタを上に分割" ,
+        "key": "ctrl+shift+cmd+k",
+        "command": "workbench.action.splitEditorDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "_comment": "エディタを左に分割" ,
+        "key": "ctrl+shift+cmd+h",
+        "command": "workbench.action.splitEditorDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "_comment": "エディタを右に分割" ,
+        "key": "ctrl+shift+cmd+l",
+        "command": "workbench.action.splitEditorDown",
+        "when": "editorTextFocus"
+    },
 ]
