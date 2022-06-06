@@ -22,7 +22,7 @@ hook_post_update = '''
 repo = 'Shougo/unite.vim'
 
 [[plugins]]
-repo = 'scrooloose/nerdtree'
+repo = 'preservim/nerdtree'
 
 [[plugins]]
 repo = 'AndrewRadev/switch.vim'

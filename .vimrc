@@ -136,11 +136,4 @@ let g:syntastic_mode_map = { 'mode': 'passive',
            \ 'active_filetypes': ['ruby'] }
 let g:syntastic_ruby_checkers = ['rubocop']
 
-
-" -----------------------------
-" plantuml settings
-" -----------------------------
-
-let g:plantuml_executable_script = "~/dotfiles/plantuml"
-
 command! Pwd echo expand(“%:p”)
