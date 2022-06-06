@@ -10,3 +10,8 @@ symbol = "🅰 "
 
 [aws.region_aliases]
 ap-northeast-1 = "jp"
+
+[battery]
+full_symbol = "🔋 "
+charging_symbol = "⚡️ "
+discharging_symbol = "💀 "

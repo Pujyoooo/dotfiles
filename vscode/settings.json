@@ -30,7 +30,6 @@
     "editor.cursorBlinking": "smooth",
     // エディタのendなどを自動入力
     "editor.autoIndent": "advanced",
-    "editor.renderIndentGuides": true,
     // エディターのタブの大きさを制御します。
     "workbench.editor.tabSizing": "shrink",
 
@@ -58,5 +57,7 @@
     // 実行するターミナル アプリケーションをカスタマイズします。
     "terminal.external.osxExec": "iTerm.app",
     "workbench.editor.showTabs": false,
-    "window.zoomLevel": 0,
+    "explorer.confirmDragAndDrop": false,
+    "window.zoomLevel": 1,
+    "editor.guides.indentation": true,
 }
