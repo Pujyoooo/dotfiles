@@ -57,6 +57,7 @@
     // 実行するターミナル アプリケーションをカスタマイズします。
     "terminal.external.osxExec": "iTerm.app",
     "workbench.editor.showTabs": false,
+    "explorer.confirmDragAndDrop": false,
     "window.zoomLevel": 1,
     "editor.guides.indentation": true,
 }
