@@ -9,3 +9,22 @@ bind main R !git rebase -i %(commit)
 bind diff R !git rebase -i %(commit)
 bind generic <Ctrl-f> move-page-down
 bind generic <Ctrl-b> move-page-up
+
+color  diff-header       default magenta
+color  diff-chunk        black   white
+
+color "---"			color208	default
+color "index "			color208	default
+color "\ No newline at end of file"	color208	default
+color "diff-tree "		color208	default
+color "Merge: "			color208	default
+color "parent "			color208	default
+color "tree "			color208	default
+color date			color208	default
+color grep.file			color208	default
+color help-group		color208	default
+color diff-stat			color208	default
+color graph-commit		color208	default
+color title-blur		white	color208
+color title-focus		white	color208	bold
+

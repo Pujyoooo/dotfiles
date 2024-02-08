@@ -18,6 +18,6 @@ discharging_symbol = "💀 "
 
 [custom.arch]
 command = "uname -m"
-when = """ test $(uname -m) = "x86_64" """
+when = """ test $(uname -m) = x86_64 """
 style = "bold yellow"
-format = "[$output]($style)"
+format = "via [$output]($style)"
