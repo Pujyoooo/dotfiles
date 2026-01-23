@@ -54,14 +54,6 @@
   // 諸々のctrlキーを使った操作が有効になる
   "vim.useCtrlKeys": true,
 
-<<<<<<< Updated upstream
-    // 実行するターミナル アプリケーションをカスタマイズします。
-    "terminal.external.osxExec": "iTerm.app",
-    "workbench.editor.showTabs": false,
-    "explorer.confirmDragAndDrop": false,
-    "window.zoomLevel": 1,
-    "editor.guides.indentation": true,
-=======
   // 実行するターミナル アプリケーションをカスタマイズします。
   "terminal.external.osxExec": "iTerm.app",
   "workbench.editor.showTabs": "single",
@@ -72,13 +64,13 @@
   "go.toolsManagement.autoUpdate": true,
 
   // ファイル保存時に自動フォーマットするように設定
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   // ファイル保存時にESlintが、対応するファイルをフォーマットする
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
   // デフォルトのフォーマッターにPrettierを設定
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "git.openRepositoryInParentFolders": "never"
->>>>>>> Stashed changes
+  "git.openRepositoryInParentFolders": "never",
+  "claudeCode.preferredLocation": "sidebar"
 }

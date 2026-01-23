@@ -150,9 +150,23 @@
         "when": "editorTextFocus"
     },
     {
-        "_comment": "エディタを右に分割" ,
-        "key": "ctrl+shift+cmd+l",
-        "command": "workbench.action.splitEditorDown",
-        "when": "editorTextFocus"
+        "_comment": "panerlの最大化/元に戻す" ,
+        "key": "ctrl+cmd+j",
+        "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
+        "_comment": "Claudeサイドバーを開く" ,
+        "key": "ctrl+cmd+shift+l",
+        "command": "claude-vscode.sidebar.open"
+    },
+    {
+        "_comment": "Claudeサイドバーにフォーカスを当てる" ,
+        "key": "ctrl+cmd+l",
+        "command": "claudeVSCodeSidebar.focus"
+    },
+    {
+        "_comment": "Claudeチャットを開く" ,
+        "key": "ctrl+cmd+shift+c",
+        "command": "claude-vscode.editor.openLast"
     },
 ]
