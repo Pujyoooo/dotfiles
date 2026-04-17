@@ -1,0 +1,45 @@
+{
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "edit_predictions": {
+    "provider": "copilot"
+  },
+  "theme": "Ayu Dark",
+  "buffer_font_size": 11,
+  "ui_font_size": 14,
+  "terminal": {
+    "font_size": 11
+  },
+
+  // Vim
+  "vim_mode": true,
+  "vim": {
+    "use_system_clipboard": "always"
+  },
+
+  // エディタ
+  "tab_size": 2,
+  "soft_wrap": "editor_width",
+  "current_line_highlight": "all",
+  "cursor_blink": true,
+  "indent_guides": {
+    "enabled": true
+  },
+  "preview_tabs": {
+    "enabled": false
+  },
+  "remove_trailing_whitespace_on_save": true,
+  "scrollbar": {
+    "show": "never"
+  },
+  "git": { "inline_blame": { "enabled": true } },
+  // フォーマット (VSCodeではESLint code action on saveを使用)
+  "format_on_save": "off",
+  "autosave": "on_focus_change",
+
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  }
+}
