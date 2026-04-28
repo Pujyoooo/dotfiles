@@ -72,5 +72,13 @@
   // デフォルトのフォーマッターにPrettierを設定
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "git.openRepositoryInParentFolders": "never",
-  "claudeCode.preferredLocation": "sidebar"
+  "claudeCode.preferredLocation": "sidebar",
+  "accessibility.signals.terminalBell": {
+    "sound": "off"
+  },
+  "accessibility.signals.terminalCommandFailed": { "sound": "off" },
+  "accessibility.signals.terminalQuickFix": {
+    "sound": "off"
+  },
+  "terminal.integrated.enableVisualBell": false
 }

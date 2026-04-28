@@ -1,0 +1,71 @@
+[
+  // タブ切り替え (ctrl+p/n)
+  {
+    "context": "Editor && !menu",
+    "bindings": {
+      "ctrl-p": "pane::ActivatePreviousItem",
+      "ctrl-n": "pane::ActivateNextItem"
+    }
+  },
+
+  // サイドバー/エディタ間の切り替え (ctrl+e)
+  {
+    "context": "Editor && !menu",
+    "bindings": {
+      "ctrl-e": "workspace::ToggleLeftDock"
+    }
+  },
+  {
+    "context": "ProjectPanel",
+    "bindings": {
+        "ctrl-e": ["workspace::SendKeystrokes", "escape"],
+      "a": "project_panel::NewFile",
+      "shift-a": "project_panel::NewDirectory",
+      "d": "project_panel::Delete",
+      "x": "project_panel::CollapseSelectedEntry",
+      "ctrl-cmd-enter": "project_panel::Rename"
+    }
+  },
+
+  // ターミナル操作
+  {
+    "bindings": {
+      "cmd-shift-t": "workspace::NewTerminal",
+      "cmd-shift-enter": "terminal_panel::ToggleFocus",
+      "ctrl-cmd-j": "workspace::ToggleZoom"
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "cmd-shift-enter": "workspace::ActivateCenter",
+      // 分割
+      "ctrl-shift-cmd-h": "pane::SplitLeft",
+      "ctrl-shift-cmd-l": "pane::SplitRight",
+      "ctrl-shift-cmd-j": "pane::SplitDown",
+      "ctrl-shift-cmd-k": "pane::SplitUp",
+      // ペイン間移動
+      "cmd-]": "workspace::ActivateNextPane",
+      "cmd-[": "workspace::ActivatePreviousPane",
+      "cmd-shift-j": "workspace::ActivateNextPane",
+      "cmd-shift-k": "workspace::ActivatePreviousPane",
+      // タブ切り替え（同一ペイン内）
+      "cmd-shift-]": "pane::ActivateNextItem",
+      "cmd-shift-[": "pane::ActivatePreviousItem"
+    }
+  },
+
+  // エディタ・ターミナル共通の分割キー
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-shift-cmd-h": "pane::SplitLeft",
+      "ctrl-shift-cmd-l": "pane::SplitRight",
+      "ctrl-shift-cmd-j": "pane::SplitDown",
+      "ctrl-shift-cmd-k": "pane::SplitUp",
+      // ペイン間移動
+      "cmd-]": "workspace::ActivateNextPane",
+      "cmd-[": "workspace::ActivatePreviousPane"
+    }
+  }
+]

@@ -21,7 +21,7 @@
         "key": "ctrl+p",
         "command": "workbench.action.previousEditor",
         "when": "editorTextFocus"
-    }
+    },
     {
         "key": "ctrl+n",
         "command": "workbench.action.nextEditor",
@@ -70,11 +70,6 @@
         "key": "escape",
         "command": "workbench.action.focusActiveEditorGroup",
         "when": "explorerViewletFocus && listFocus &&explorerViewletVisible && !inputFocus"
-    },
-    {
-        "key": "escape",
-        "command": "workbench.action.focusActiveEditorGroup",
-        "when": "terminalFocus"
     },
     {
         "_comment": "sidebar/エディタ間の切り替え" ,
