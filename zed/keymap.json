@@ -38,7 +38,7 @@
   {
     "context": "Terminal",
     "bindings": {
-      "cmd-shift-enter": "workspace::ActivateCenter",
+      "cmd-shift-enter": "terminal_panel::ToggleFocus",
       // 分割
       "ctrl-shift-cmd-h": "pane::SplitLeft",
       "ctrl-shift-cmd-l": "pane::SplitRight",
