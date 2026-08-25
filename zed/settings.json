@@ -22,14 +22,19 @@
   "session": {
     "trust_all_worktrees": true
   },
+  "features": {
+    "copilot": false
+  },
   "edit_predictions": {
-    "provider": "copilot"
+    "provider": "none"
   },
   "theme": "Ayu Dark",
   "buffer_font_size": 11,
   "ui_font_size": 14,
   "terminal": {
-    "font_size": 11
+    "font_size": 11,
+    "detect_venv": "off",
+    "alternate_scroll": "off",
   },
 
   // Vim
